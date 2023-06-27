@@ -1,10 +1,9 @@
 from ibm_cloud_sdk_core.authenticators import IAMAuthenticator
 from ibm_watson import SpeechToTextV1,TextToSpeechV1, AssistantV2
 import os, uuid,json
-from dotenv import load_dotenv
 
 
-load_dotenv()
+
 
 stt_api = os.environ["stt_api"]
 stt_url = os.environ["stt_url"]
